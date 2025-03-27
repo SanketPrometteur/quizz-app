@@ -11,11 +11,6 @@ export class Question{
     }
 }
 
-// quizQuestions.forEach((quizQuestion)=>{
-//     const question = new Question(quizQuestion)
-
-//     console.log(question);
-// })
 
 export class Quiz{
     constructor(quizQuestions){

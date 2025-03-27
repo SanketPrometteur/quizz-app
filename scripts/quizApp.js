@@ -102,12 +102,12 @@ const quizApp = new QuizApp(quizQuestions);
 
 quizApp.loadQuestion();
 
-// Set up the Next button to load the next question
+// Next button to load the next question
 document.querySelector('.js-next-button').addEventListener('click', () => {
     quizApp.nextQuestion();
 });
 
-// Set up the Previous button to load the Previous question
+//  Previous button to load the Previous question
 document.querySelector('.js-previous-button').addEventListener('click', () => {
     quizApp.previousQuestion();
 });

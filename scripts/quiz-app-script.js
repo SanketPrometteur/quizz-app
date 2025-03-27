@@ -10,7 +10,8 @@ quizQuestions.forEach((quizQuestion)=>{
     const question = new Question(quizQuestion)
 
     
-    console.log(question);
+    // console.log(question);
+    
 })
 
 let currentQuestionIndex = 0;

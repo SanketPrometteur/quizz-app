@@ -1,5 +1,17 @@
 import { quizQuestions } from "./data/quetions.js";
 
+// imported Qustion class
+import { Question } from "./data/quiz-oop.js";
+
+
+
+// Implementing OOP 
+quizQuestions.forEach((quizQuestion)=>{
+    const question = new Question(quizQuestion)
+
+    
+    console.log(question);
+})
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -39,7 +51,7 @@ function handleAnswer(selectedAnswer){
         option.classList.remove('selected-option');
 
         if(option.textContent === selectedAnswer){
-            option.classList.add('selected-option');
+            option.classList.add('selected-option')
         }
     })
 

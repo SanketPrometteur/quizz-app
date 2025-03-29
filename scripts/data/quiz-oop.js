@@ -1,5 +1,5 @@
 import { quizQuestions } from "./quetions.js";
-export class Question{
+class Question{
     question;
     options;
     correctAnswer;
